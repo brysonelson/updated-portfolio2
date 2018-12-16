@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous"> -->
+    <link rel="stylesheet" href="assets/css/style.css" type="text/css">
+    <link rel="stylesheet" href="assets/css/portfolio.css" type="text/css">
+    <title>Document</title>
+</head>
+<body>
+<!-- Nav Bar -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="nav-bar">
+        <a class="navbar-brand ml-5" href="./index.html">Bryson Nelson</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav ml-auto mr-5">
+            <a class="nav-item nav-link active" href="#">About <span class="sr-only">(current)</span></a>
+            <a class="nav-item nav-link" href="#">Portfolio</a>
+            <a data-toggle="modal" data-target="#contactModal" class="nav-item nav-link">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- body -->
+    <div class="container-fluid" id="portfolio-header-image">
+        <div id="portfolio-header-img">
+            <div>
+                <h1 id="portfolio-header-text">Portfolio</h1>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- portfolio projects -->
+    <div class="container-fluid">
+    <div class="container m-auto" id="projects">
+
+        <div class='row project-row w-100 container-fluid hoverable z-depth-1' id="project-1">
+            <div class="col-lg-3">
+                <div id="project-1-thumbnail">
+                </div>
+                <a href="https://brysonelson.github.io/unit-4-game/" target="_blank" id="project-1-logo">
+                </a>
+            </div>
+            <div class="col-lg-9 project-text">
+                <h3 class="text-center ml-auto portfolio-project">Star Wars RPG</h3>
+                <p class="text-center ml-auto portfolio-project"> Pick your character. Pick your enemy. Then fight to the death! Defeat all the enemies to win!</p>
+                <p class="text-center ml-auto portfolio-project">Click the logo to play the game.</p>
+                <p class="tech-used ml-auto float-right"><i class="px-1 fab fa-html5"></i><i class=" px-1 fab fa-css3"></i><i class="px-1 fab fa-js-square"></i></p>
+            </div>
+        </div>
+
+        <div class='row project-row container-fluid hoverable z-depth-1' id="project-2">
+            <div class="col-lg-9 project-text" id="project-2-col">
+                <h3 class="text-center mr-auto portfolio-project">Harry Potter Trivia</h3>
+                <p class="text-center mr-auto portfolio-project">Test your knowledge of the boy wizard, and his magical world in this short, Harry Potter themed game!</p>
+                <p class="text-center mr-auto portfolio-project">Click the logo to play the game.</p>
+                <p class="tech-used mr-auto float-left"><i class="px-1 fab fa-html5"></i><i class=" px-1 fab fa-css3"></i><i class="px-1 fab fa-js-square"></i></p>
+            </div>
+            <div class="col-lg-3" id="project-two-col">
+                <div id="project-2-thumbnail">
+                    <div id="project-2-thumbnail-img"></div>
+                </div>
+                <a href="https://brysonelson.github.io/TriviaGame/" target="_blank" id="project-2-logo">
+                </a>
+            </div>
+        </div>
+
+        <div class='row project-row w-100 container-fluid hoverable z-depth-1' id="project-3">
+            <div class="col-lg-3">
+                <div id="project-3-thumbnail">
+                </div>
+                <a href="https://brysonelson.github.io/unit-4-game/" target="_blank" id="project-3-logo">
+                </a>
+            </div>
+            <div class="col-lg-9 project-text">
+                <h3 class="text-center ml-auto portfolio-project">Bar Finder</h3>
+                <p class="text-center ml-auto portfolio-project"> Goodbye indecision. With bar finder, you can find, favorite, and share the best bars and cocktails around!</p>
+                <p class="text-center ml-auto portfolio-project">Click the logo to visit the app.</p>
+                <p class="tech-used ml-auto float-right"><i class="px-1 fab fa-html5"></i><i class=" px-1 fab fa-css3"></i><i class="px-1 fab fa-js-square"></i><i class="px-1 fab fa-google"></i></p>
+            </div>
+        </div>
+
+        <div class='row project-row container-fluid hoverable z-depth-1' id="project-4">
+            <div class="col-lg-9 project-text" id="project-4-col">
+                <h3 class="text-center mr-auto portfolio-project">Train Arrival</h3>
+                <p class="text-center mr-auto portfolio-project">Log in to view the current scuedule of trains, add new trains to the schedule, and pick your destination!</p>
+                <p class="text-center mr-auto portfolio-project">Click the logo to enter the app.</p>
+                <p class="tech-used mr-auto float-left"><i class="px-1 fab fa-html5"></i><i class=" px-1 fab fa-css3"></i><i class="px-1 fab fa-js-square"></i></p>
+            </div>
+            <div class="col-lg-3" id="project-four-col">
+                    <div id="project-4-thumbnail"></div>
+                <a href="https://brysonelson.github.io/TriviaGame/" target="_blank" id="project-4-logo">
+                </a>
+            </div>
+        </div>
+
+        <div class='row' id="project-3">
+    
+        </div>
+        <div class='row' id="project-4">
+
+        </div>
+        <div class='row' id="project-5">
+
+        </div>
+        <div class='row' id="project-6">
+
+        </div>
+        
+    </div>
+
+
+<div class="fixed-action-btn mb-3 mr-3">
+    <!-- Element Showed -->
+    <a id="menu" class="waves-effect waves-light btn-large btn-floating orange darken-2"><i class="material-icons">menu</i></a>
+
+    <!-- Tap Target Structure -->
+
+    <div class="teal lighten-3 tap-target" data-target="menu">
+        <div class="tap-target-content">
+            <h5>Title</h5>
+            <p>A bunch of text</p>
+        </div>
+    </div>
+</div>
+
+</div>
+
+ <!-- Modal -->
+ <div class="modal fade" id="contactModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+ aria-hidden="true">
+ <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+     <div class="modal-content" id="contact-modal-content">
+         <div class="modal-header">
+             <h5 class="modal-title" id="exampleModalCenterTitle">Contact Me</h5>
+             <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                 <span aria-hidden="true">&times;</span>
+             </button>
+         </div>
+         <div class="modal-body">
+             <form>
+                 <div class="form-group">
+                     <label for="exampleFormControlInput1">Name</label>
+                     <input type="text" class="form-control" placeholder="Name">
+                 </div>
+
+                 <div class="form-group">
+                     <label for="exampleFormControlTextarea1">Email</label>
+                     <input type="email" class="form-control" placeholder="email@email.com">
+                 </div>
+
+                 <div class="form-group">
+                     <label for="exampleFormControlTextarea1">Message</label>
+                     <textarea type="email" class="form-control" placeholder="Message"></textarea>
+                 </div>
+             </form>
+         </div>
+         <div class="modal-footer">
+             <button type="button" class="btn btn-secondary" id="close-contact-button" data-dismiss="modal">Close</button>
+             <button type="button" class="btn" id="contact-submit-button">Submit</button>
+         </div>
+     </div>
+ </div>
+</div>
+
+
+    <footer class="navbar-light fixed-bottom">
+        <div class="container" id="footer-text-div">
+            <p class="text-center py-auto" id="footer-text"><i class="far fa-copyright"></i> Bryson Nelson 2018</p>
+        </div>
+    </footer>
+
+    
+    
+        <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+        <script src="./assets/javascript/portfolio.js"  type="text/javascript"></script>
+    </body>
+    </html>

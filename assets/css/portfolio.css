@@ -1,0 +1,365 @@
+#nav-bar {
+    background: transparent;
+    color: #eb774c !important;
+}
+
+/* .container {
+    height: 20%;
+} */
+
+.nav-item, .navbar-brand {
+    color: #eb774c !important;
+}
+
+#portfolio-header-image {
+    height: 20ah;
+    position: absolute;
+    
+
+}
+
+.nav-item-scroll {
+    color: white !important;
+    background: transparent !important;
+    transition: .5s;
+}
+
+#portfolio-header-img {
+    background-image: url("../images/IMG_3137.jpeg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: top;
+    background-attachment: fixed;
+    margin: auto;
+    height: 50vh;
+    width: 100%;
+}
+
+#portfolio-header-text {
+    position: absolute;
+    top: 15%;
+    left:35%;
+    font-size: 60px;
+    /* font-weight: 900; */
+    color: #eb774c;
+    font-family: 'Lobster', cursive;
+}
+
+.tech-used  {
+    font-size: 18px;
+}
+
+.fa-html5 {
+    color: #eb774c;
+}
+
+.fa-css3 {
+    color: #1c3750;
+}
+
+.fa-js-square {
+    color: #74b6b5;
+}
+
+.hidden {
+    opacity: 0;
+    transition: .5s;
+}
+
+
+
+#projects {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    left: 0%;
+    top: 50vh;
+    background: white;
+    padding-top: 20px;
+}
+
+.project-row {
+    margin-top: 20px;
+    width: 100%;
+    background: white;
+    margin-bottom: 40px !important;
+    border-radius: 10px;
+    /* box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.295); */
+    transition: .5s;
+}
+
+#project-1:hover #project-1-thumbnail{
+    position: absolute;
+    left:-700%;
+    top:-50%;
+    height: 2000%;
+    width: 2000%;
+    background-image: linear-gradient(
+        rgba(0, 0, 0, 0.788),
+        rgba(153, 151, 151, 0.014)
+      ) ,url("../images/body-image.jpg");
+      transition: .5s ease-in-out;
+}
+
+/* #project-2:hover{
+    background-image: url("../images/hp-background-img.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    transition: .5s;
+} */
+
+#project-2:hover #project-2-thumbnail-img{
+    position: absolute;
+    right:50%;
+    z-index: 99;
+    bottom:0;
+    height: 100%;
+    width: 100%; 
+    background-image: linear-gradient(
+        rgba(0, 0, 0, 0.788),
+        rgba(153, 151, 151, 0.014)
+      ), url("../images/hp-background-img.jpg");
+    /* background-image: url("../images/hp-background-img.jpg"); */
+    /* opacity: 0; */
+    /* background: white; */
+    transition: .5s;
+}
+
+.project-row:hover .project-text {
+    color: white;
+    text-shadow: 2px 2px 15px black;
+    transition: .5s;
+    font-weight: bold;
+    z-index: 10;
+}
+
+.project-text {
+    transition: .5s;
+}
+
+#project-1 {
+    height: 30%;;
+    margin: auto;
+    width: 100%;
+    overflow: hidden;
+}
+
+#project-1-thumbnail {
+    background-image: url("../images/body-image.jpg");
+    width: 50vw;
+    height: 20vw;
+    margin: auto;
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    transform: rotate(45deg);
+    position: absolute;
+    top: 0;
+    left: -55%;
+    transition: .5s;
+}
+
+#project-1-logo {
+    background-image: url("../images/star-wars-logo.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 20%;
+}
+
+#project-2 {
+    height: 30%;;
+    margin: auto;
+    width: 100%;
+    overflow: hidden;
+    transition: .5s;
+}
+
+#project-2-thumbnail {
+    width: 50vw;
+    height: 100%;
+    margin: auto;
+    transition: .5s;
+    position: absolute;
+    top: 0;
+    right: -65%;
+    transition: .5s;
+    overflow: hidden;
+}
+
+#project-2-thumbnail-img {
+    height: 100%;
+    width: 100%;
+    background-image: url("../images//hp-background-img.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    transition: .5s;
+}
+
+#project-2-logo {
+    background-image: url("../images/hp-logo.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+    z-index: 99;
+    position: absolute;
+    top: 5%;
+    right: 20%;
+    transition: .5s;
+}
+
+#project-3:hover #project-3-thumbnail{
+    width: 150%;
+    height: 100%;
+    margin: auto;
+    position: absolute;
+    top: 0;
+    left: -10%;
+    transition: .5s ease;
+}
+
+#project-3:hover .project-text, #project-4:hover .project-text {
+    color: black;
+    font-weight: normal;
+    text-shadow: none;
+}
+
+#project-3:hover #project-3-logo {
+    background-image: url("../images/cocktail.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    width: 50%;
+    height: 50%;
+    position: absolute;
+    bottom: 25%;
+    left: 150%;
+    transition: .5s;
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+#project-3 {
+    height: 30%;;
+    margin: auto;
+    width: 100%;
+    overflow: hidden;
+}
+
+#project-3-thumbnail {
+    background-image: url("../images/bar-03.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    position: absolute;
+    top: 0;
+    left: -10%;
+    transition: .5s;
+}
+
+#project-3-logo {
+    background-image: url("../images/cocktail.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    width: 50%;
+    height: 50%;
+    position: absolute;
+    bottom: 25%;
+    left: 100%;
+    transition: .5s;
+}
+
+#project-4:hover #project-4-thumbnail {
+    width: 150%;
+    height: 100%;
+    margin: auto;
+    position: absolute;
+    top: 0;
+    right: -5%;
+    transition: .5s ease;
+}
+
+#project-4:hover #project-4-logo {
+    width: 100%;
+    height: 120%;
+    position: absolute;
+    bottom: -10%;
+    right: 200%;
+    -webkit-transform: rotate(-180deg);
+    -moz-transform: rotate(-180deg);
+    -ms-transform: rotate(-180deg);
+    -o-transform: rotate(-180deg);
+    transform: rotate(-180deg);
+    opacity: .3;
+    transition: .5s;
+}
+
+#project-4 {
+    height: 30%;;
+    margin: auto;
+    width: 100%;
+    overflow: hidden;
+}
+
+#project-4-thumbnail {
+    background-image: url("../images/train-orange.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left;
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    position: absolute;
+    top: 0;
+    right: -20%;
+    transition: .5s;
+}
+
+#project-4-logo {
+    background-image: url("../images/train-clock.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    width: 100%;
+    height: 70%;
+    position: absolute;
+    bottom: 15%;
+    right: 90%;;
+    transition: .5s;
+}
+
+.portfolio-project {
+    width: 60%;
+    margin-top: 3%;
+}
+
+footer {
+    height: 4%;
+    display: block;
+}
+
+#footer-text-div {
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    display: block;
+    position: static;
+    margin: auto;
+    /* bottom: 10px !important; */
+}
