@@ -121,15 +121,15 @@ $("#about-me-head").click(function() {
     console.log("test");
 })
 
-$("#content-1-diamond").click(function() {
-    event.preventDefault();
-    $("#about-page").css("top", "0");
-    document.body.style.overflow = "hidden";
-    console.log("test");
-})
-
 $("#about-exit").click(function() {
     $("#about-page").css("top", "200vh");
     document.body.style.overflow = "auto";
     console.log("test");
+})
+
+//===================== when you submit the contact form ==============
+$("#contact-submit-button").click(function() {
+    $.post("/api/contacts", function(req, res) {
+        
+    })
 })

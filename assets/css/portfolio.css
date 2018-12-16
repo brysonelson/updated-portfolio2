@@ -350,16 +350,11 @@
 }
 
 footer {
-    height: 4%;
+    height: 3%;
     display: block;
 }
 
 #footer-text-div {
     height: 100%;
-    width: 100%;
-    text-align: center;
     display: block;
-    position: static;
-    margin: auto;
-    /* bottom: 10px !important; */
 }
